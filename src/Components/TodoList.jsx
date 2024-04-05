@@ -29,6 +29,7 @@ let i = 0
                 </div>
                 
                 <div className="right">
+                <i className="fas fa-edit" style={{color:'orange',paddingRight:'10px'}} title='edit'></i>
                   <i className="fas fa-trash" title='delete' onClick={()=>{
                     const newItems = [...todos];
                     newItems.splice(index,1)
